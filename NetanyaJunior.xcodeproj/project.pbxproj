@@ -1,0 +1,1168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0CAB0B1BCEF307009FCDFF /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0CAB0A1BCEF307009FCDFF /* DonationViewController.swift */; };
+		BF0CAB0D1BCEF74E009FCDFF /* UpDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0CAB0C1BCEF74E009FCDFF /* UpDateViewController.swift */; };
+		BF1484A71C19C6EC00107E98 /* menu-alt_50.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1484A61C19C6EC00107E98 /* menu-alt_50.png */; };
+		BF1484A91C19C7FB00107E98 /* menu-alt-30.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1484A81C19C7FB00107E98 /* menu-alt-30.png */; };
+		BF2187791BEAB1B800863475 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2187721BEAB1B700863475 /* Bolts.framework */; };
+		BF21877A1BEAB1B800863475 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2187731BEAB1B700863475 /* Parse.framework */; };
+		BF21877B1BEAB1B800863475 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2187741BEAB1B700863475 /* ParseCrashReporting.framework */; };
+		BF21877D1BEAB1B800863475 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2187761BEAB1B700863475 /* ParseFacebookUtilsV4.framework */; };
+		BF21877E1BEAB1B800863475 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2187771BEAB1B800863475 /* ParseTwitterUtils.framework */; };
+		BF21877F1BEAB1B800863475 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2187781BEAB1B800863475 /* ParseUI.framework */; };
+		BF2389891BF7BF6E00A08710 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2389871BF7BF6E00A08710 /* SignIn.swift */; };
+		BF23898A1BF7BF6E00A08710 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2389881BF7BF6E00A08710 /* SignUp.swift */; };
+		BF23898C1BF7BFD300A08710 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23898B1BF7BFD300A08710 /* Enums.swift */; };
+		BF23898F1BF7C21600A08710 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23898D1BF7C21600A08710 /* SignUpViewController.swift */; };
+		BF2389901BF7C21600A08710 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF23898E1BF7C21600A08710 /* SignInViewController.swift */; };
+		BF2389921BF7D92300A08710 /* pay_pal_donate.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2389911BF7D92300A08710 /* pay_pal_donate.png */; };
+		BF34718A1C1F497B008302BE /* kehila_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3471891C1F497B008302BE /* kehila_.jpg */; };
+		BF38CAC81C036B310061108D /* UpdatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38CAC71C036B310061108D /* UpdatesTableViewController.swift */; };
+		BF38CACD1C03923A0061108D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38CACC1C03923A0061108D /* TableViewCell.swift */; };
+		BF40A3511BCFF2E8000FC7DD /* AppTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3501BCFF2E8000FC7DD /* AppTextView.swift */; };
+		BF40A3531BCFF2F0000FC7DD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3521BCFF2F0000FC7DD /* Utils.swift */; };
+		BF40A3AB1BCFF767000FC7DD /* NSCalendar+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A35B1BCFF767000FC7DD /* NSCalendar+Components.m */; };
+		BF40A3AC1BCFF767000FC7DD /* NSCalendar+DateComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A35D1BCFF767000FC7DD /* NSCalendar+DateComparison.m */; };
+		BF40A3AD1BCFF767000FC7DD /* NSCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A35F1BCFF767000FC7DD /* NSCalendar+DateManipulation.m */; };
+		BF40A3AE1BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3611BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.m */; };
+		BF40A3AF1BCFF767000FC7DD /* NSCalendar+Juncture.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3631BCFF767000FC7DD /* NSCalendar+Juncture.m */; };
+		BF40A3B01BCFF767000FC7DD /* NSCalendar+Ranges.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3651BCFF767000FC7DD /* NSCalendar+Ranges.m */; };
+		BF40A3B11BCFF767000FC7DD /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3681BCFF767000FC7DD /* NSDate+Components.m */; };
+		BF40A3B21BCFF767000FC7DD /* NSDate+ConvenientDates.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A36A1BCFF767000FC7DD /* NSDate+ConvenientDates.m */; };
+		BF40A3B31BCFF767000FC7DD /* NSDate+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A36C1BCFF767000FC7DD /* NSDate+Description.m */; };
+		BF40A3B41BCFF767000FC7DD /* NSDateComponents+AllComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A36F1BCFF767000FC7DD /* NSDateComponents+AllComponents.m */; };
+		BF40A3B51BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3721BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.m */; };
+		BF40A3B61BCFF767000FC7DD /* KCJewishCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3781BCFF767000FC7DD /* KCJewishCalendar.m */; };
+		BF40A3B71BCFF767000FC7DD /* KCJewishHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A37A1BCFF767000FC7DD /* KCJewishHoliday.m */; };
+		BF40A3B81BCFF767000FC7DD /* KCDaf.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A37D1BCFF767000FC7DD /* KCDaf.m */; };
+		BF40A3B91BCFF767000FC7DD /* KCDafYomiCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A37F1BCFF767000FC7DD /* KCDafYomiCalculator.m */; };
+		BF40A3BA1BCFF767000FC7DD /* KCParasha.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3821BCFF767000FC7DD /* KCParasha.m */; };
+		BF40A3BB1BCFF767000FC7DD /* KCParashatHashavuaCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3841BCFF767000FC7DD /* KCParashatHashavuaCalculator.m */; };
+		BF40A3BC1BCFF767000FC7DD /* KCSefiraFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3871BCFF767000FC7DD /* KCSefiraFormatter.m */; };
+		BF40A3BD1BCFF767000FC7DD /* KCSefiratHaomerCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3891BCFF767000FC7DD /* KCSefiratHaomerCalculator.m */; };
+		BF40A3BE1BCFF767000FC7DD /* KCComplexZmanimCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A38C1BCFF767000FC7DD /* KCComplexZmanimCalendar.m */; };
+		BF40A3BF1BCFF767000FC7DD /* KCZman.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A38E1BCFF767000FC7DD /* KCZman.m */; };
+		BF40A3C01BCFF767000FC7DD /* KCZmanimCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3901BCFF767000FC7DD /* KCZmanimCalendar.m */; };
+		BF40A3C11BCFF767000FC7DD /* KCAstronomicalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3931BCFF767000FC7DD /* KCAstronomicalCalculator.m */; };
+		BF40A3C21BCFF767000FC7DD /* KCAstronomicalCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3951BCFF767000FC7DD /* KCAstronomicalCalendar.m */; };
+		BF40A3C31BCFF767000FC7DD /* KCGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3971BCFF767000FC7DD /* KCGeoLocation.m */; };
+		BF40A3C41BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40A3991BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.m */; };
+		BF40A3C51BCFF767000FC7DD /* trigonometry.c in Sources */ = {isa = PBXBuildFile; fileRef = BF40A39C1BCFF767000FC7DD /* trigonometry.c */; };
+		BF439F4C1BC3201D0090770A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF439F4B1BC3201D0090770A /* AppDelegate.swift */; };
+		BF439F4E1BC3201D0090770A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF439F4D1BC3201D0090770A /* ViewController.swift */; };
+		BF439F511BC3201D0090770A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF439F4F1BC3201D0090770A /* Main.storyboard */; };
+		BF439F541BC3201D0090770A /* NetanyaJunior.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF439F521BC3201D0090770A /* NetanyaJunior.xcdatamodeld */; };
+		BF439F561BC3201D0090770A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF439F551BC3201D0090770A /* Assets.xcassets */; };
+		BF439F591BC3201D0090770A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF439F571BC3201D0090770A /* LaunchScreen.storyboard */; };
+		BF48B9B41BF926DB007BE83B /* AppLittleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48B9B31BF926DB007BE83B /* AppLittleTextView.swift */; };
+		BF4E77231C03B8C00062484E /* updates.json in Resources */ = {isa = PBXBuildFile; fileRef = BF4E77221C03B8C00062484E /* updates.json */; };
+		BF627A451BC321C0006D5DED /* logo_aaff.png in Resources */ = {isa = PBXBuildFile; fileRef = BF627A441BC321C0006D5DED /* logo_aaff.png */; };
+		BF69DEAC1C2F499200975D09 /* home_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF69DEA91C2F499200975D09 /* home_@2x.png */; };
+		BF69DEAD1C2F499200975D09 /* home_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF69DEAA1C2F499200975D09 /* home_@3x.png */; };
+		BF69DEAE1C2F499200975D09 /* home_.png in Resources */ = {isa = PBXBuildFile; fileRef = BF69DEAB1C2F499200975D09 /* home_.png */; };
+		BF6BAF091BD566C000A0F704 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BAF081BD566C000A0F704 /* BaseViewController.swift */; };
+		BF6BAF0B1BD5684000A0F704 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BAF0A1BD5684000A0F704 /* PrayerViewController.swift */; };
+		BF6BAF0D1BD5693400A0F704 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BAF0C1BD5693400A0F704 /* BaseNavigationController.swift */; };
+		BF6E628F1C04DC71000EBE19 /* AboutTheDeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E628E1C04DC71000EBE19 /* AboutTheDeveloperViewController.swift */; };
+		BF7F68101BE813F300654AF7 /* AppBoldTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7F680F1BE813F300654AF7 /* AppBoldTextView.swift */; };
+		BF888CD11BEEAA9200101FB6 /* SendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF888CD01BEEAA9200101FB6 /* SendEmailViewController.swift */; };
+		BF8EC1041BC6C3B100516E1B /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8EC1031BC6C3B100516E1B /* MainScreenViewController.swift */; };
+		BF8EC1071BC6D65500516E1B /* kehila.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8EC1061BC6D65500516E1B /* kehila.jpg */; };
+		BF8EC10B1BC6DD7E00516E1B /* shofardemi-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF8EC10A1BC6DD7E00516E1B /* shofardemi-bold-webfont.ttf */; };
+		BF8EC10E1BC6E24A00516E1B /* shofardemi-boldoblique-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF8EC10C1BC6E24A00516E1B /* shofardemi-boldoblique-webfont.ttf */; };
+		BF8EC10F1BC6E24A00516E1B /* shofarregular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF8EC10D1BC6E24A00516E1B /* shofarregular-webfont.ttf */; };
+		BF8EC12B1BC9968800516E1B /* AboutScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8EC12A1BC9968800516E1B /* AboutScreenViewController.swift */; };
+		BFA72BC71C270023009B3371 /* FirstPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA72BC61C270023009B3371 /* FirstPrayerViewController.swift */; };
+		BFC8D1471C1F0A7100B47370 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D1441C1F0A7100B47370 /* menu.png */; };
+		BFC8D1481C1F0A7100B47370 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D1451C1F0A7100B47370 /* menu@2x.png */; };
+		BFC8D1491C1F0A7100B47370 /* menu_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC8D1461C1F0A7100B47370 /* menu_@3x.png */; };
+		BFCD77B01BFE918E0091D1CD /* btn_1_f_.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCD77AF1BFE918E0091D1CD /* btn_1_f_.png */; };
+		BFCD77B61C0104B10091D1CD /* CustomUINavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD77B51C0104B10091D1CD /* CustomUINavigationBar.swift */; };
+		BFCD77B91C010AA40091D1CD /* bckBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCD77B71C010AA40091D1CD /* bckBtn.png */; };
+		BFCD77BA1C010AA40091D1CD /* nxtBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = BFCD77B81C010AA40091D1CD /* nxtBtn.png */; };
+		BFD0EFCC1BFA5A1E003F3E77 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFCB1BFA5A1E003F3E77 /* home.png */; };
+		BFD0EFCF1BFA6028003F3E77 /* btn__.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFCD1BFA6028003F3E77 /* btn__.png */; };
+		BFD0EFD01BFA6028003F3E77 /* btn_.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFCE1BFA6028003F3E77 /* btn_.png */; };
+		BFD0EFD21BFA625F003F3E77 /* btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFD11BFA625F003F3E77 /* btn_1.png */; };
+		BFD0EFD41BFA679C003F3E77 /* btn_1_s.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFD31BFA679C003F3E77 /* btn_1_s.png */; };
+		BFD0EFD61BFA82EA003F3E77 /* btn_gr_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFD51BFA82EA003F3E77 /* btn_gr_1.png */; };
+		BFD0EFD81BFA8368003F3E77 /* btn_gr_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD0EFD71BFA8368003F3E77 /* btn_gr_2.png */; };
+		BFD954FA1C0D0DCD00AACD79 /* ManuOfPraysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD954F91C0D0DCD00AACD79 /* ManuOfPraysTableViewController.swift */; };
+		BFDE3F6E1C0CF73A00B9B343 /* MaimScreenNoLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE3F6D1C0CF73A00B9B343 /* MaimScreenNoLogInViewController.swift */; };
+		BFDE3F701C0CFD1900B9B343 /* MainSiddurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE3F6F1C0CFD1900B9B343 /* MainSiddurViewController.swift */; };
+		BFE148F51BCD8C3E00196041 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE148F41BCD8C3E00196041 /* AudioToolbox.framework */; };
+		BFE148F71BCD8C4A00196041 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE148F61BCD8C4A00196041 /* CFNetwork.framework */; };
+		BFE148F91BCD8C5500196041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE148F81BCD8C5500196041 /* CoreGraphics.framework */; };
+		BFE148FB1BCD8C6000196041 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE148FA1BCD8C6000196041 /* CoreLocation.framework */; };
+		BFE148FD1BCD8C6900196041 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE148FC1BCD8C6900196041 /* QuartzCore.framework */; };
+		BFE148FF1BCD8C7400196041 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE148FE1BCD8C7400196041 /* Security.framework */; };
+		BFE149031BCD8C8400196041 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE149021BCD8C8400196041 /* SystemConfiguration.framework */; };
+		BFE149051BCD8CF400196041 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE149041BCD8CF400196041 /* libsqlite3.tbd */; };
+		BFE149071BCD8D0E00196041 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE149061BCD8D0D00196041 /* libz.tbd */; };
+		BFE1490A1BCD8D6700196041 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE149091BCD8D6700196041 /* Accounts.framework */; };
+		BFE1490C1BCD8D7200196041 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE1490B1BCD8D7200196041 /* Social.framework */; };
+		BFEDBA0E1BFE63CE00192637 /* Aleft.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEDBA0C1BFE63CE00192637 /* Aleft.png */; };
+		BFEDBA0F1BFE63CE00192637 /* Aright.png in Resources */ = {isa = PBXBuildFile; fileRef = BFEDBA0D1BFE63CE00192637 /* Aright.png */; };
+		BFEDBA1F1BFE7B0F00192637 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEDBA1C1BFE7B0F00192637 /* FBSDKCoreKit.framework */; };
+		BFEDBA201BFE7B0F00192637 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEDBA1D1BFE7B0F00192637 /* FBSDKLoginKit.framework */; };
+		BFEDBA211BFE7B0F00192637 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEDBA1E1BFE7B0F00192637 /* FBSDKShareKit.framework */; };
+		BFEDBA231BFE7F6300192637 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEDBA221BFE7F6300192637 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF0CAAF91BCEDC79009FCDFF /* NetanyaJunior-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NetanyaJunior-Bridging-Header.h"; path = "NetanyaJunior/NetanyaJunior-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF0CAB0A1BCEF307009FCDFF /* DonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationViewController.swift; sourceTree = "<group>"; };
+		BF0CAB0C1BCEF74E009FCDFF /* UpDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpDateViewController.swift; sourceTree = "<group>"; };
+		BF1484A61C19C6EC00107E98 /* menu-alt_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-alt_50.png"; sourceTree = "<group>"; };
+		BF1484A81C19C7FB00107E98 /* menu-alt-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-alt-30.png"; sourceTree = "<group>"; };
+		BF2187721BEAB1B700863475 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BF2187731BEAB1B700863475 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BF2187741BEAB1B700863475 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		BF2187761BEAB1B700863475 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		BF2187771BEAB1B800863475 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		BF2187781BEAB1B800863475 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		BF2389871BF7BF6E00A08710 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		BF2389881BF7BF6E00A08710 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		BF23898B1BF7BFD300A08710 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		BF23898D1BF7C21600A08710 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BF23898E1BF7C21600A08710 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BF2389911BF7D92300A08710 /* pay_pal_donate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pay_pal_donate.png; sourceTree = "<group>"; };
+		BF3471891C1F497B008302BE /* kehila_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kehila_.jpg; sourceTree = "<group>"; };
+		BF38CAC71C036B310061108D /* UpdatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesTableViewController.swift; sourceTree = "<group>"; };
+		BF38CACC1C03923A0061108D /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BF40A3501BCFF2E8000FC7DD /* AppTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTextView.swift; sourceTree = "<group>"; };
+		BF40A3521BCFF2F0000FC7DD /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BF40A3581BCFF767000FC7DD /* MBCalendarCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCalendarCategories.h; sourceTree = "<group>"; };
+		BF40A35A1BCFF767000FC7DD /* NSCalendar+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Components.h"; sourceTree = "<group>"; };
+		BF40A35B1BCFF767000FC7DD /* NSCalendar+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Components.m"; sourceTree = "<group>"; };
+		BF40A35C1BCFF767000FC7DD /* NSCalendar+DateComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateComparison.h"; sourceTree = "<group>"; };
+		BF40A35D1BCFF767000FC7DD /* NSCalendar+DateComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateComparison.m"; sourceTree = "<group>"; };
+		BF40A35E1BCFF767000FC7DD /* NSCalendar+DateManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateManipulation.h"; sourceTree = "<group>"; };
+		BF40A35F1BCFF767000FC7DD /* NSCalendar+DateManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateManipulation.m"; sourceTree = "<group>"; };
+		BF40A3601BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+hebrewYearTypes.h"; sourceTree = "<group>"; };
+		BF40A3611BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+hebrewYearTypes.m"; sourceTree = "<group>"; };
+		BF40A3621BCFF767000FC7DD /* NSCalendar+Juncture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Juncture.h"; sourceTree = "<group>"; };
+		BF40A3631BCFF767000FC7DD /* NSCalendar+Juncture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Juncture.m"; sourceTree = "<group>"; };
+		BF40A3641BCFF767000FC7DD /* NSCalendar+Ranges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Ranges.h"; sourceTree = "<group>"; };
+		BF40A3651BCFF767000FC7DD /* NSCalendar+Ranges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Ranges.m"; sourceTree = "<group>"; };
+		BF40A3671BCFF767000FC7DD /* NSDate+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Components.h"; sourceTree = "<group>"; };
+		BF40A3681BCFF767000FC7DD /* NSDate+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Components.m"; sourceTree = "<group>"; };
+		BF40A3691BCFF767000FC7DD /* NSDate+ConvenientDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvenientDates.h"; sourceTree = "<group>"; };
+		BF40A36A1BCFF767000FC7DD /* NSDate+ConvenientDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenientDates.m"; sourceTree = "<group>"; };
+		BF40A36B1BCFF767000FC7DD /* NSDate+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Description.h"; sourceTree = "<group>"; };
+		BF40A36C1BCFF767000FC7DD /* NSDate+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Description.m"; sourceTree = "<group>"; };
+		BF40A36E1BCFF767000FC7DD /* NSDateComponents+AllComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+AllComponents.h"; sourceTree = "<group>"; };
+		BF40A36F1BCFF767000FC7DD /* NSDateComponents+AllComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+AllComponents.m"; sourceTree = "<group>"; };
+		BF40A3711BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KCAstronomicalCalendar+DateManipulation.h"; sourceTree = "<group>"; };
+		BF40A3721BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KCAstronomicalCalendar+DateManipulation.m"; sourceTree = "<group>"; };
+		BF40A3751BCFF767000FC7DD /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		BF40A3771BCFF767000FC7DD /* KCJewishCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishCalendar.h; sourceTree = "<group>"; };
+		BF40A3781BCFF767000FC7DD /* KCJewishCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJewishCalendar.m; sourceTree = "<group>"; };
+		BF40A3791BCFF767000FC7DD /* KCJewishHoliday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishHoliday.h; sourceTree = "<group>"; };
+		BF40A37A1BCFF767000FC7DD /* KCJewishHoliday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJewishHoliday.m; sourceTree = "<group>"; };
+		BF40A37C1BCFF767000FC7DD /* KCDaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDaf.h; sourceTree = "<group>"; };
+		BF40A37D1BCFF767000FC7DD /* KCDaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDaf.m; sourceTree = "<group>"; };
+		BF40A37E1BCFF767000FC7DD /* KCDafYomiCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDafYomiCalculator.h; sourceTree = "<group>"; };
+		BF40A37F1BCFF767000FC7DD /* KCDafYomiCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDafYomiCalculator.m; sourceTree = "<group>"; };
+		BF40A3811BCFF767000FC7DD /* KCParasha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCParasha.h; sourceTree = "<group>"; };
+		BF40A3821BCFF767000FC7DD /* KCParasha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCParasha.m; sourceTree = "<group>"; };
+		BF40A3831BCFF767000FC7DD /* KCParashatHashavuaCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCParashatHashavuaCalculator.h; sourceTree = "<group>"; };
+		BF40A3841BCFF767000FC7DD /* KCParashatHashavuaCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCParashatHashavuaCalculator.m; sourceTree = "<group>"; };
+		BF40A3861BCFF767000FC7DD /* KCSefiraFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSefiraFormatter.h; sourceTree = "<group>"; };
+		BF40A3871BCFF767000FC7DD /* KCSefiraFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSefiraFormatter.m; sourceTree = "<group>"; };
+		BF40A3881BCFF767000FC7DD /* KCSefiratHaomerCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSefiratHaomerCalculator.h; sourceTree = "<group>"; };
+		BF40A3891BCFF767000FC7DD /* KCSefiratHaomerCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSefiratHaomerCalculator.m; sourceTree = "<group>"; };
+		BF40A38B1BCFF767000FC7DD /* KCComplexZmanimCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCComplexZmanimCalendar.h; sourceTree = "<group>"; };
+		BF40A38C1BCFF767000FC7DD /* KCComplexZmanimCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCComplexZmanimCalendar.m; sourceTree = "<group>"; };
+		BF40A38D1BCFF767000FC7DD /* KCZman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZman.h; sourceTree = "<group>"; };
+		BF40A38E1BCFF767000FC7DD /* KCZman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCZman.m; sourceTree = "<group>"; };
+		BF40A38F1BCFF767000FC7DD /* KCZmanimCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZmanimCalendar.h; sourceTree = "<group>"; };
+		BF40A3901BCFF767000FC7DD /* KCZmanimCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCZmanimCalendar.m; sourceTree = "<group>"; };
+		BF40A3921BCFF767000FC7DD /* KCAstronomicalCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAstronomicalCalculator.h; sourceTree = "<group>"; };
+		BF40A3931BCFF767000FC7DD /* KCAstronomicalCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAstronomicalCalculator.m; sourceTree = "<group>"; };
+		BF40A3941BCFF767000FC7DD /* KCAstronomicalCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAstronomicalCalendar.h; sourceTree = "<group>"; };
+		BF40A3951BCFF767000FC7DD /* KCAstronomicalCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAstronomicalCalendar.m; sourceTree = "<group>"; };
+		BF40A3961BCFF767000FC7DD /* KCGeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeoLocation.h; sourceTree = "<group>"; };
+		BF40A3971BCFF767000FC7DD /* KCGeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeoLocation.m; sourceTree = "<group>"; };
+		BF40A3981BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSunriseAndSunsetCalculator.h; sourceTree = "<group>"; };
+		BF40A3991BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSunriseAndSunsetCalculator.m; sourceTree = "<group>"; };
+		BF40A39A1BCFF767000FC7DD /* Solar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solar.h; sourceTree = "<group>"; };
+		BF40A39C1BCFF767000FC7DD /* trigonometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trigonometry.c; sourceTree = "<group>"; };
+		BF40A39D1BCFF767000FC7DD /* trigonometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trigonometry.h; sourceTree = "<group>"; };
+		BF40A39F1BCFF767000FC7DD /* KCAstronomical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAstronomical.h; sourceTree = "<group>"; };
+		BF40A3A01BCFF767000FC7DD /* KCBearing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBearing.h; sourceTree = "<group>"; };
+		BF40A3A11BCFF767000FC7DD /* KCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCConstants.h; sourceTree = "<group>"; };
+		BF40A3A21BCFF767000FC7DD /* KCHebrewYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHebrewYear.h; sourceTree = "<group>"; };
+		BF40A3A31BCFF767000FC7DD /* KCJewishHolidays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishHolidays.h; sourceTree = "<group>"; };
+		BF40A3A41BCFF767000FC7DD /* KCMolad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMolad.h; sourceTree = "<group>"; };
+		BF40A3A51BCFF767000FC7DD /* KCParashaReadings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCParashaReadings.h; sourceTree = "<group>"; };
+		BF40A3A61BCFF767000FC7DD /* KCSunCalculationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSunCalculationTypes.h; sourceTree = "<group>"; };
+		BF40A3A71BCFF767000FC7DD /* KCTractates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTractates.h; sourceTree = "<group>"; };
+		BF40A3A81BCFF767000FC7DD /* KCZenith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZenith.h; sourceTree = "<group>"; };
+		BF40A3A91BCFF767000FC7DD /* KCZenithExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZenithExtended.h; sourceTree = "<group>"; };
+		BF40A3AA1BCFF767000FC7DD /* KosherCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KosherCocoa.h; sourceTree = "<group>"; };
+		BF439F481BC3201D0090770A /* NetanyaJunior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetanyaJunior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF439F4B1BC3201D0090770A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = NetanyaJunior/AppDelegate.swift; sourceTree = "<group>"; };
+		BF439F4D1BC3201D0090770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF439F501BC3201D0090770A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF439F531BC3201D0090770A /* NetanyaJunior.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetanyaJunior.xcdatamodel; sourceTree = "<group>"; };
+		BF439F551BC3201D0090770A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NetanyaJunior/Assets.xcassets; sourceTree = "<group>"; };
+		BF439F581BC3201D0090770A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF439F5A1BC3201D0090770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = NetanyaJunior/Info.plist; sourceTree = "<group>"; };
+		BF48B9B31BF926DB007BE83B /* AppLittleTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLittleTextView.swift; sourceTree = "<group>"; };
+		BF4E77221C03B8C00062484E /* updates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = updates.json; sourceTree = "<group>"; };
+		BF5247061BFBCD37002B8E96 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/Main.strings; sourceTree = "<group>"; };
+		BF5247071BFBCD37002B8E96 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BF627A441BC321C0006D5DED /* logo_aaff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_aaff.png; sourceTree = "<group>"; };
+		BF69DEA91C2F499200975D09 /* home_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_@2x.png"; sourceTree = "<group>"; };
+		BF69DEAA1C2F499200975D09 /* home_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_@3x.png"; sourceTree = "<group>"; };
+		BF69DEAB1C2F499200975D09 /* home_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_.png; sourceTree = "<group>"; };
+		BF6BAF081BD566C000A0F704 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BF6BAF0A1BD5684000A0F704 /* PrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
+		BF6BAF0C1BD5693400A0F704 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		BF6E628E1C04DC71000EBE19 /* AboutTheDeveloperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTheDeveloperViewController.swift; sourceTree = "<group>"; };
+		BF7F680F1BE813F300654AF7 /* AppBoldTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBoldTextView.swift; sourceTree = "<group>"; };
+		BF888CD01BEEAA9200101FB6 /* SendEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEmailViewController.swift; sourceTree = "<group>"; };
+		BF8EC1031BC6C3B100516E1B /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		BF8EC1061BC6D65500516E1B /* kehila.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kehila.jpg; sourceTree = "<group>"; };
+		BF8EC10A1BC6DD7E00516E1B /* shofardemi-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "shofardemi-bold-webfont.ttf"; path = "NetanyaJunior/shofardemi-bold-webfont.ttf"; sourceTree = "<group>"; };
+		BF8EC10C1BC6E24A00516E1B /* shofardemi-boldoblique-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "shofardemi-boldoblique-webfont.ttf"; path = "NetanyaJunior/shofardemi-boldoblique-webfont.ttf"; sourceTree = "<group>"; };
+		BF8EC10D1BC6E24A00516E1B /* shofarregular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "shofarregular-webfont.ttf"; path = "NetanyaJunior/shofarregular-webfont.ttf"; sourceTree = "<group>"; };
+		BF8EC12A1BC9968800516E1B /* AboutScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutScreenViewController.swift; sourceTree = "<group>"; };
+		BFA72BC61C270023009B3371 /* FirstPrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstPrayerViewController.swift; path = ../FirstPrayerViewController.swift; sourceTree = "<group>"; };
+		BFA8FA161C0D0A370074FD30 /* NetanyaJunior.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NetanyaJunior.xcodeproj; path = /Users/yonisheinin/Desktop/NetanyaJunior/NetanyaJunior.xcodeproj; sourceTree = "<absolute>"; };
+		BFC8D1441C1F0A7100B47370 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		BFC8D1451C1F0A7100B47370 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		BFC8D1461C1F0A7100B47370 /* menu_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_@3x.png"; sourceTree = "<group>"; };
+		BFCD77AF1BFE918E0091D1CD /* btn_1_f_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_1_f_.png; sourceTree = "<group>"; };
+		BFCD77B51C0104B10091D1CD /* CustomUINavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUINavigationBar.swift; sourceTree = "<group>"; };
+		BFCD77B71C010AA40091D1CD /* bckBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bckBtn.png; sourceTree = "<group>"; };
+		BFCD77B81C010AA40091D1CD /* nxtBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nxtBtn.png; sourceTree = "<group>"; };
+		BFD0EFCB1BFA5A1E003F3E77 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		BFD0EFCD1BFA6028003F3E77 /* btn__.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn__.png; sourceTree = "<group>"; };
+		BFD0EFCE1BFA6028003F3E77 /* btn_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_.png; sourceTree = "<group>"; };
+		BFD0EFD11BFA625F003F3E77 /* btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_1.png; sourceTree = "<group>"; };
+		BFD0EFD31BFA679C003F3E77 /* btn_1_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_1_s.png; sourceTree = "<group>"; };
+		BFD0EFD51BFA82EA003F3E77 /* btn_gr_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_gr_1.png; sourceTree = "<group>"; };
+		BFD0EFD71BFA8368003F3E77 /* btn_gr_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_gr_2.png; sourceTree = "<group>"; };
+		BFD954F91C0D0DCD00AACD79 /* ManuOfPraysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuOfPraysTableViewController.swift; sourceTree = "<group>"; };
+		BFDE3F6D1C0CF73A00B9B343 /* MaimScreenNoLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaimScreenNoLogInViewController.swift; sourceTree = "<group>"; };
+		BFDE3F6F1C0CFD1900B9B343 /* MainSiddurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainSiddurViewController.swift; path = ../MainSiddurViewController.swift; sourceTree = "<group>"; };
+		BFE148F41BCD8C3E00196041 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFE148F61BCD8C4A00196041 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFE148F81BCD8C5500196041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFE148FA1BCD8C6000196041 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BFE148FC1BCD8C6900196041 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFE148FE1BCD8C7400196041 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFE149021BCD8C8400196041 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFE149041BCD8CF400196041 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BFE149061BCD8D0D00196041 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BFE149091BCD8D6700196041 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BFE1490B1BCD8D7200196041 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BFEDBA0C1BFE63CE00192637 /* Aleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aleft.png; sourceTree = "<group>"; };
+		BFEDBA0D1BFE63CE00192637 /* Aright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aright.png; sourceTree = "<group>"; };
+		BFEDBA1C1BFE7B0F00192637 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		BFEDBA1D1BFE7B0F00192637 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		BFEDBA1E1BFE7B0F00192637 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		BFEDBA221BFE7F6300192637 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF439F451BC3201D0090770A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEDBA231BFE7F6300192637 /* StoreKit.framework in Frameworks */,
+				BF21877F1BEAB1B800863475 /* ParseUI.framework in Frameworks */,
+				BFEDBA201BFE7B0F00192637 /* FBSDKLoginKit.framework in Frameworks */,
+				BFE1490C1BCD8D7200196041 /* Social.framework in Frameworks */,
+				BFE1490A1BCD8D6700196041 /* Accounts.framework in Frameworks */,
+				BFE149071BCD8D0E00196041 /* libz.tbd in Frameworks */,
+				BF2187791BEAB1B800863475 /* Bolts.framework in Frameworks */,
+				BFE149051BCD8CF400196041 /* libsqlite3.tbd in Frameworks */,
+				BF21877B1BEAB1B800863475 /* ParseCrashReporting.framework in Frameworks */,
+				BFEDBA1F1BFE7B0F00192637 /* FBSDKCoreKit.framework in Frameworks */,
+				BFE149031BCD8C8400196041 /* SystemConfiguration.framework in Frameworks */,
+				BF21877A1BEAB1B800863475 /* Parse.framework in Frameworks */,
+				BFE148FF1BCD8C7400196041 /* Security.framework in Frameworks */,
+				BF21877D1BEAB1B800863475 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				BFE148FD1BCD8C6900196041 /* QuartzCore.framework in Frameworks */,
+				BFE148FB1BCD8C6000196041 /* CoreLocation.framework in Frameworks */,
+				BFE148F91BCD8C5500196041 /* CoreGraphics.framework in Frameworks */,
+				BFEDBA211BFE7B0F00192637 /* FBSDKShareKit.framework in Frameworks */,
+				BF21877E1BEAB1B800863475 /* ParseTwitterUtils.framework in Frameworks */,
+				BFE148F71BCD8C4A00196041 /* CFNetwork.framework in Frameworks */,
+				BFE148F51BCD8C3E00196041 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0CAAFC1BCEDE51009FCDFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF756A161BFD055900D5E3F9 /* ViewControllers */,
+				BF40A34F1BCFF2D7000FC7DD /* TextView */,
+			);
+			name = View;
+			path = NetanyaJunior;
+			sourceTree = "<group>";
+		};
+		BF0CAAFF1BCEE33D009FCDFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF2389871BF7BF6E00A08710 /* SignIn.swift */,
+				BF23898B1BF7BFD300A08710 /* Enums.swift */,
+				BF2389881BF7BF6E00A08710 /* SignUp.swift */,
+			);
+			name = Models;
+			path = NetanyaJunior;
+			sourceTree = "<group>";
+		};
+		BF40A34F1BCFF2D7000FC7DD /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3501BCFF2E8000FC7DD /* AppTextView.swift */,
+				BF7F680F1BE813F300654AF7 /* AppBoldTextView.swift */,
+				BF48B9B31BF926DB007BE83B /* AppLittleTextView.swift */,
+				BF40A3521BCFF2F0000FC7DD /* Utils.swift */,
+			);
+			name = TextView;
+			sourceTree = "<group>";
+		};
+		BF40A3541BCFF73D000FC7DD /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				BFE148F31BCD8BF500196041 /* Parse */,
+				BFEC120D1BFBC1420073E72F /* FacebookSDK */,
+				BF756A151BFD04C400D5E3F9 /* Kosher Cocoa */,
+			);
+			name = "3rd party";
+			path = NetanyaJunior;
+			sourceTree = "<group>";
+		};
+		BF40A3551BCFF767000FC7DD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3561BCFF767000FC7DD /* Categories */,
+				BF40A3731BCFF767000FC7DD /* Core */,
+				BF40A39E1BCFF767000FC7DD /* Headers */,
+				BF40A3AA1BCFF767000FC7DD /* KosherCocoa.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BF40A3561BCFF767000FC7DD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3571BCFF767000FC7DD /* Foundation */,
+				BF40A3701BCFF767000FC7DD /* KosherCocoa */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BF40A3571BCFF767000FC7DD /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3581BCFF767000FC7DD /* MBCalendarCategories.h */,
+				BF40A3591BCFF767000FC7DD /* NSCalendar */,
+				BF40A3661BCFF767000FC7DD /* NSDate */,
+				BF40A36D1BCFF767000FC7DD /* NSDateComponents */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BF40A3591BCFF767000FC7DD /* NSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A35A1BCFF767000FC7DD /* NSCalendar+Components.h */,
+				BF40A35B1BCFF767000FC7DD /* NSCalendar+Components.m */,
+				BF40A35C1BCFF767000FC7DD /* NSCalendar+DateComparison.h */,
+				BF40A35D1BCFF767000FC7DD /* NSCalendar+DateComparison.m */,
+				BF40A35E1BCFF767000FC7DD /* NSCalendar+DateManipulation.h */,
+				BF40A35F1BCFF767000FC7DD /* NSCalendar+DateManipulation.m */,
+				BF40A3601BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.h */,
+				BF40A3611BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.m */,
+				BF40A3621BCFF767000FC7DD /* NSCalendar+Juncture.h */,
+				BF40A3631BCFF767000FC7DD /* NSCalendar+Juncture.m */,
+				BF40A3641BCFF767000FC7DD /* NSCalendar+Ranges.h */,
+				BF40A3651BCFF767000FC7DD /* NSCalendar+Ranges.m */,
+			);
+			path = NSCalendar;
+			sourceTree = "<group>";
+		};
+		BF40A3661BCFF767000FC7DD /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3671BCFF767000FC7DD /* NSDate+Components.h */,
+				BF40A3681BCFF767000FC7DD /* NSDate+Components.m */,
+				BF40A3691BCFF767000FC7DD /* NSDate+ConvenientDates.h */,
+				BF40A36A1BCFF767000FC7DD /* NSDate+ConvenientDates.m */,
+				BF40A36B1BCFF767000FC7DD /* NSDate+Description.h */,
+				BF40A36C1BCFF767000FC7DD /* NSDate+Description.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		BF40A36D1BCFF767000FC7DD /* NSDateComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A36E1BCFF767000FC7DD /* NSDateComponents+AllComponents.h */,
+				BF40A36F1BCFF767000FC7DD /* NSDateComponents+AllComponents.m */,
+			);
+			path = NSDateComponents;
+			sourceTree = "<group>";
+		};
+		BF40A3701BCFF767000FC7DD /* KosherCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3711BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.h */,
+				BF40A3721BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.m */,
+			);
+			path = KosherCocoa;
+			sourceTree = "<group>";
+		};
+		BF40A3731BCFF767000FC7DD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3741BCFF767000FC7DD /* Calendar */,
+				BF40A3911BCFF767000FC7DD /* Solar */,
+				BF40A39B1BCFF767000FC7DD /* Utilities */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BF40A3741BCFF767000FC7DD /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3751BCFF767000FC7DD /* Calendar.h */,
+				BF40A3761BCFF767000FC7DD /* Chagim */,
+				BF40A37B1BCFF767000FC7DD /* Daf Yomi */,
+				BF40A3801BCFF767000FC7DD /* Parasha */,
+				BF40A3851BCFF767000FC7DD /* Sefira */,
+				BF40A38A1BCFF767000FC7DD /* Zmanim */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		BF40A3761BCFF767000FC7DD /* Chagim */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3771BCFF767000FC7DD /* KCJewishCalendar.h */,
+				BF40A3781BCFF767000FC7DD /* KCJewishCalendar.m */,
+				BF40A3791BCFF767000FC7DD /* KCJewishHoliday.h */,
+				BF40A37A1BCFF767000FC7DD /* KCJewishHoliday.m */,
+			);
+			path = Chagim;
+			sourceTree = "<group>";
+		};
+		BF40A37B1BCFF767000FC7DD /* Daf Yomi */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A37C1BCFF767000FC7DD /* KCDaf.h */,
+				BF40A37D1BCFF767000FC7DD /* KCDaf.m */,
+				BF40A37E1BCFF767000FC7DD /* KCDafYomiCalculator.h */,
+				BF40A37F1BCFF767000FC7DD /* KCDafYomiCalculator.m */,
+			);
+			path = "Daf Yomi";
+			sourceTree = "<group>";
+		};
+		BF40A3801BCFF767000FC7DD /* Parasha */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3811BCFF767000FC7DD /* KCParasha.h */,
+				BF40A3821BCFF767000FC7DD /* KCParasha.m */,
+				BF40A3831BCFF767000FC7DD /* KCParashatHashavuaCalculator.h */,
+				BF40A3841BCFF767000FC7DD /* KCParashatHashavuaCalculator.m */,
+			);
+			path = Parasha;
+			sourceTree = "<group>";
+		};
+		BF40A3851BCFF767000FC7DD /* Sefira */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3861BCFF767000FC7DD /* KCSefiraFormatter.h */,
+				BF40A3871BCFF767000FC7DD /* KCSefiraFormatter.m */,
+				BF40A3881BCFF767000FC7DD /* KCSefiratHaomerCalculator.h */,
+				BF40A3891BCFF767000FC7DD /* KCSefiratHaomerCalculator.m */,
+			);
+			path = Sefira;
+			sourceTree = "<group>";
+		};
+		BF40A38A1BCFF767000FC7DD /* Zmanim */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A38B1BCFF767000FC7DD /* KCComplexZmanimCalendar.h */,
+				BF40A38C1BCFF767000FC7DD /* KCComplexZmanimCalendar.m */,
+				BF40A38D1BCFF767000FC7DD /* KCZman.h */,
+				BF40A38E1BCFF767000FC7DD /* KCZman.m */,
+				BF40A38F1BCFF767000FC7DD /* KCZmanimCalendar.h */,
+				BF40A3901BCFF767000FC7DD /* KCZmanimCalendar.m */,
+			);
+			path = Zmanim;
+			sourceTree = "<group>";
+		};
+		BF40A3911BCFF767000FC7DD /* Solar */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3921BCFF767000FC7DD /* KCAstronomicalCalculator.h */,
+				BF40A3931BCFF767000FC7DD /* KCAstronomicalCalculator.m */,
+				BF40A3941BCFF767000FC7DD /* KCAstronomicalCalendar.h */,
+				BF40A3951BCFF767000FC7DD /* KCAstronomicalCalendar.m */,
+				BF40A3961BCFF767000FC7DD /* KCGeoLocation.h */,
+				BF40A3971BCFF767000FC7DD /* KCGeoLocation.m */,
+				BF40A3981BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.h */,
+				BF40A3991BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.m */,
+				BF40A39A1BCFF767000FC7DD /* Solar.h */,
+			);
+			path = Solar;
+			sourceTree = "<group>";
+		};
+		BF40A39B1BCFF767000FC7DD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A39C1BCFF767000FC7DD /* trigonometry.c */,
+				BF40A39D1BCFF767000FC7DD /* trigonometry.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BF40A39E1BCFF767000FC7DD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A39F1BCFF767000FC7DD /* KCAstronomical.h */,
+				BF40A3A01BCFF767000FC7DD /* KCBearing.h */,
+				BF40A3A11BCFF767000FC7DD /* KCConstants.h */,
+				BF40A3A21BCFF767000FC7DD /* KCHebrewYear.h */,
+				BF40A3A31BCFF767000FC7DD /* KCJewishHolidays.h */,
+				BF40A3A41BCFF767000FC7DD /* KCMolad.h */,
+				BF40A3A51BCFF767000FC7DD /* KCParashaReadings.h */,
+				BF40A3A61BCFF767000FC7DD /* KCSunCalculationTypes.h */,
+				BF40A3A71BCFF767000FC7DD /* KCTractates.h */,
+				BF40A3A81BCFF767000FC7DD /* KCZenith.h */,
+				BF40A3A91BCFF767000FC7DD /* KCZenithExtended.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BF439F3F1BC3201D0090770A = {
+			isa = PBXGroup;
+			children = (
+				BFE149061BCD8D0D00196041 /* libz.tbd */,
+				BFA8FA171C0D0A370074FD30 /* xcodeproj */,
+				BF439F5A1BC3201D0090770A /* Info.plist */,
+				BFE149041BCD8CF400196041 /* libsqlite3.tbd */,
+				BF439F551BC3201D0090770A /* Assets.xcassets */,
+				BF439F4F1BC3201D0090770A /* Main.storyboard */,
+				BF439F4B1BC3201D0090770A /* AppDelegate.swift */,
+				BF0CAAF91BCEDC79009FCDFF /* NetanyaJunior-Bridging-Header.h */,
+				BF4E77221C03B8C00062484E /* updates.json */,
+				BF439F571BC3201D0090770A /* LaunchScreen.storyboard */,
+				BF439F521BC3201D0090770A /* NetanyaJunior.xcdatamodeld */,
+				BF627A431BC321AE006D5DED /* images */,
+				BFD3602A1BCCF368007C004B /* Fonts */,
+				BF0CAAFC1BCEDE51009FCDFF /* View */,
+				BF0CAAFF1BCEE33D009FCDFF /* Models */,
+				BF40A3541BCFF73D000FC7DD /* 3rd party */,
+				BFE149081BCD8D2000196041 /* Frameworks */,
+				BF439F491BC3201D0090770A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF439F491BC3201D0090770A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF439F481BC3201D0090770A /* NetanyaJunior.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF627A431BC321AE006D5DED /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BF69DEA91C2F499200975D09 /* home_@2x.png */,
+				BF69DEAA1C2F499200975D09 /* home_@3x.png */,
+				BF69DEAB1C2F499200975D09 /* home_.png */,
+				BF1484A81C19C7FB00107E98 /* menu-alt-30.png */,
+				BF3471891C1F497B008302BE /* kehila_.jpg */,
+				BFC8D1441C1F0A7100B47370 /* menu.png */,
+				BFC8D1451C1F0A7100B47370 /* menu@2x.png */,
+				BFC8D1461C1F0A7100B47370 /* menu_@3x.png */,
+				BF1484A61C19C6EC00107E98 /* menu-alt_50.png */,
+				BFCD77B71C010AA40091D1CD /* bckBtn.png */,
+				BFCD77B81C010AA40091D1CD /* nxtBtn.png */,
+				BFCD77AF1BFE918E0091D1CD /* btn_1_f_.png */,
+				BFEDBA0C1BFE63CE00192637 /* Aleft.png */,
+				BFEDBA0D1BFE63CE00192637 /* Aright.png */,
+				BFD0EFD71BFA8368003F3E77 /* btn_gr_2.png */,
+				BFD0EFD11BFA625F003F3E77 /* btn_1.png */,
+				BFD0EFD51BFA82EA003F3E77 /* btn_gr_1.png */,
+				BFD0EFD31BFA679C003F3E77 /* btn_1_s.png */,
+				BFD0EFCD1BFA6028003F3E77 /* btn__.png */,
+				BFD0EFCE1BFA6028003F3E77 /* btn_.png */,
+				BFD0EFCB1BFA5A1E003F3E77 /* home.png */,
+				BF627A441BC321C0006D5DED /* logo_aaff.png */,
+				BF2389911BF7D92300A08710 /* pay_pal_donate.png */,
+				BF8EC1061BC6D65500516E1B /* kehila.jpg */,
+			);
+			name = images;
+			path = NetanyaJunior;
+			sourceTree = "<group>";
+		};
+		BF6BAF071BD566B400A0F704 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BFCD77B51C0104B10091D1CD /* CustomUINavigationBar.swift */,
+				BF6BAF0C1BD5693400A0F704 /* BaseNavigationController.swift */,
+				BF6BAF081BD566C000A0F704 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BF756A151BFD04C400D5E3F9 /* Kosher Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				BF40A3551BCFF767000FC7DD /* Library */,
+			);
+			name = "Kosher Cocoa";
+			sourceTree = "<group>";
+		};
+		BF756A161BFD055900D5E3F9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF6BAF071BD566B400A0F704 /* Base */,
+				BF23898D1BF7C21600A08710 /* SignUpViewController.swift */,
+				BFD954F91C0D0DCD00AACD79 /* ManuOfPraysTableViewController.swift */,
+				BF23898E1BF7C21600A08710 /* SignInViewController.swift */,
+				BF0CAB0C1BCEF74E009FCDFF /* UpDateViewController.swift */,
+				BF6E628E1C04DC71000EBE19 /* AboutTheDeveloperViewController.swift */,
+				BF38CAC71C036B310061108D /* UpdatesTableViewController.swift */,
+				BF38CACC1C03923A0061108D /* TableViewCell.swift */,
+				BF439F4D1BC3201D0090770A /* ViewController.swift */,
+				BF888CD01BEEAA9200101FB6 /* SendEmailViewController.swift */,
+				BF0CAB0A1BCEF307009FCDFF /* DonationViewController.swift */,
+				BF8EC1031BC6C3B100516E1B /* MainScreenViewController.swift */,
+				BFDE3F6D1C0CF73A00B9B343 /* MaimScreenNoLogInViewController.swift */,
+				BF8EC12A1BC9968800516E1B /* AboutScreenViewController.swift */,
+				BFDE3F6F1C0CFD1900B9B343 /* MainSiddurViewController.swift */,
+				BFA72BC61C270023009B3371 /* FirstPrayerViewController.swift */,
+				BF6BAF0A1BD5684000A0F704 /* PrayerViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BFA8FA171C0D0A370074FD30 /* xcodeproj */ = {
+			isa = PBXGroup;
+			children = (
+				BFA8FA161C0D0A370074FD30 /* NetanyaJunior.xcodeproj */,
+			);
+			name = xcodeproj;
+			path = NetanyaJunior.xcodeproj;
+			sourceTree = "<group>";
+		};
+		BFA8FA181C0D0A4E0074FD30 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD3602A1BCCF368007C004B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BF8EC10C1BC6E24A00516E1B /* shofardemi-boldoblique-webfont.ttf */,
+				BF8EC10D1BC6E24A00516E1B /* shofarregular-webfont.ttf */,
+				BF8EC10A1BC6DD7E00516E1B /* shofardemi-bold-webfont.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		BFE148F31BCD8BF500196041 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				BF2187721BEAB1B700863475 /* Bolts.framework */,
+				BF2187731BEAB1B700863475 /* Parse.framework */,
+				BF2187741BEAB1B700863475 /* ParseCrashReporting.framework */,
+				BF2187761BEAB1B700863475 /* ParseFacebookUtilsV4.framework */,
+				BF2187771BEAB1B800863475 /* ParseTwitterUtils.framework */,
+				BF2187781BEAB1B800863475 /* ParseUI.framework */,
+			);
+			name = Parse;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		BFE149081BCD8D2000196041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEDBA221BFE7F6300192637 /* StoreKit.framework */,
+				BFE1490B1BCD8D7200196041 /* Social.framework */,
+				BFE149091BCD8D6700196041 /* Accounts.framework */,
+				BFE149021BCD8C8400196041 /* SystemConfiguration.framework */,
+				BFE148FE1BCD8C7400196041 /* Security.framework */,
+				BFE148FC1BCD8C6900196041 /* QuartzCore.framework */,
+				BFE148FA1BCD8C6000196041 /* CoreLocation.framework */,
+				BFE148F81BCD8C5500196041 /* CoreGraphics.framework */,
+				BFE148F61BCD8C4A00196041 /* CFNetwork.framework */,
+				BFE148F41BCD8C3E00196041 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEC120D1BFBC1420073E72F /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BFEDBA1C1BFE7B0F00192637 /* FBSDKCoreKit.framework */,
+				BFEDBA1D1BFE7B0F00192637 /* FBSDKLoginKit.framework */,
+				BFEDBA1E1BFE7B0F00192637 /* FBSDKShareKit.framework */,
+			);
+			name = FacebookSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF439F471BC3201D0090770A /* NetanyaJunior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF439F731BC3201D0090770A /* Build configuration list for PBXNativeTarget "NetanyaJunior" */;
+			buildPhases = (
+				BF439F441BC3201D0090770A /* Sources */,
+				BF439F451BC3201D0090770A /* Frameworks */,
+				BF439F461BC3201D0090770A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetanyaJunior;
+			productName = NetanyaJunior;
+			productReference = BF439F481BC3201D0090770A /* NetanyaJunior.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF439F401BC3201D0090770A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = YoniSh;
+				TargetAttributes = {
+					BF439F471BC3201D0090770A = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = GHY78A8SDA;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BF439F431BC3201D0090770A /* Build configuration list for PBXProject "NetanyaJunior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF439F3F1BC3201D0090770A;
+			productRefGroup = BF439F491BC3201D0090770A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BFA8FA181C0D0A4E0074FD30 /* Products */;
+					ProjectRef = BFA8FA161C0D0A370074FD30 /* NetanyaJunior.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BF439F471BC3201D0090770A /* NetanyaJunior */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF439F461BC3201D0090770A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCD77B01BFE918E0091D1CD /* btn_1_f_.png in Resources */,
+				BFC8D1481C1F0A7100B47370 /* menu@2x.png in Resources */,
+				BF1484A71C19C6EC00107E98 /* menu-alt_50.png in Resources */,
+				BFC8D1471C1F0A7100B47370 /* menu.png in Resources */,
+				BF69DEAE1C2F499200975D09 /* home_.png in Resources */,
+				BFC8D1491C1F0A7100B47370 /* menu_@3x.png in Resources */,
+				BFCD77B91C010AA40091D1CD /* bckBtn.png in Resources */,
+				BF439F591BC3201D0090770A /* LaunchScreen.storyboard in Resources */,
+				BF8EC10B1BC6DD7E00516E1B /* shofardemi-bold-webfont.ttf in Resources */,
+				BF69DEAD1C2F499200975D09 /* home_@3x.png in Resources */,
+				BFD0EFD01BFA6028003F3E77 /* btn_.png in Resources */,
+				BF8EC10E1BC6E24A00516E1B /* shofardemi-boldoblique-webfont.ttf in Resources */,
+				BF8EC1071BC6D65500516E1B /* kehila.jpg in Resources */,
+				BFEDBA0F1BFE63CE00192637 /* Aright.png in Resources */,
+				BF69DEAC1C2F499200975D09 /* home_@2x.png in Resources */,
+				BF8EC10F1BC6E24A00516E1B /* shofarregular-webfont.ttf in Resources */,
+				BFD0EFD41BFA679C003F3E77 /* btn_1_s.png in Resources */,
+				BF439F561BC3201D0090770A /* Assets.xcassets in Resources */,
+				BFD0EFCC1BFA5A1E003F3E77 /* home.png in Resources */,
+				BFD0EFD21BFA625F003F3E77 /* btn_1.png in Resources */,
+				BFEDBA0E1BFE63CE00192637 /* Aleft.png in Resources */,
+				BF4E77231C03B8C00062484E /* updates.json in Resources */,
+				BF2389921BF7D92300A08710 /* pay_pal_donate.png in Resources */,
+				BF1484A91C19C7FB00107E98 /* menu-alt-30.png in Resources */,
+				BF627A451BC321C0006D5DED /* logo_aaff.png in Resources */,
+				BFD0EFD81BFA8368003F3E77 /* btn_gr_2.png in Resources */,
+				BFD0EFD61BFA82EA003F3E77 /* btn_gr_1.png in Resources */,
+				BFD0EFCF1BFA6028003F3E77 /* btn__.png in Resources */,
+				BF439F511BC3201D0090770A /* Main.storyboard in Resources */,
+				BFCD77BA1C010AA40091D1CD /* nxtBtn.png in Resources */,
+				BF34718A1C1F497B008302BE /* kehila_.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF439F441BC3201D0090770A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF40A3B41BCFF767000FC7DD /* NSDateComponents+AllComponents.m in Sources */,
+				BFDE3F6E1C0CF73A00B9B343 /* MaimScreenNoLogInViewController.swift in Sources */,
+				BF40A3B51BCFF767000FC7DD /* KCAstronomicalCalendar+DateManipulation.m in Sources */,
+				BF6BAF0B1BD5684000A0F704 /* PrayerViewController.swift in Sources */,
+				BF40A3BF1BCFF767000FC7DD /* KCZman.m in Sources */,
+				BF40A3511BCFF2E8000FC7DD /* AppTextView.swift in Sources */,
+				BF23898F1BF7C21600A08710 /* SignUpViewController.swift in Sources */,
+				BFD954FA1C0D0DCD00AACD79 /* ManuOfPraysTableViewController.swift in Sources */,
+				BF40A3AF1BCFF767000FC7DD /* NSCalendar+Juncture.m in Sources */,
+				BF40A3B01BCFF767000FC7DD /* NSCalendar+Ranges.m in Sources */,
+				BF38CAC81C036B310061108D /* UpdatesTableViewController.swift in Sources */,
+				BF0CAB0D1BCEF74E009FCDFF /* UpDateViewController.swift in Sources */,
+				BF6BAF091BD566C000A0F704 /* BaseViewController.swift in Sources */,
+				BF8EC1041BC6C3B100516E1B /* MainScreenViewController.swift in Sources */,
+				BF40A3531BCFF2F0000FC7DD /* Utils.swift in Sources */,
+				BF439F4E1BC3201D0090770A /* ViewController.swift in Sources */,
+				BF23898A1BF7BF6E00A08710 /* SignUp.swift in Sources */,
+				BF40A3C21BCFF767000FC7DD /* KCAstronomicalCalendar.m in Sources */,
+				BFDE3F701C0CFD1900B9B343 /* MainSiddurViewController.swift in Sources */,
+				BF40A3BE1BCFF767000FC7DD /* KCComplexZmanimCalendar.m in Sources */,
+				BF48B9B41BF926DB007BE83B /* AppLittleTextView.swift in Sources */,
+				BF40A3AB1BCFF767000FC7DD /* NSCalendar+Components.m in Sources */,
+				BF8EC12B1BC9968800516E1B /* AboutScreenViewController.swift in Sources */,
+				BF23898C1BF7BFD300A08710 /* Enums.swift in Sources */,
+				BF439F541BC3201D0090770A /* NetanyaJunior.xcdatamodeld in Sources */,
+				BF40A3B61BCFF767000FC7DD /* KCJewishCalendar.m in Sources */,
+				BF40A3BA1BCFF767000FC7DD /* KCParasha.m in Sources */,
+				BF40A3B11BCFF767000FC7DD /* NSDate+Components.m in Sources */,
+				BF40A3B81BCFF767000FC7DD /* KCDaf.m in Sources */,
+				BF40A3BC1BCFF767000FC7DD /* KCSefiraFormatter.m in Sources */,
+				BF40A3B71BCFF767000FC7DD /* KCJewishHoliday.m in Sources */,
+				BF40A3B31BCFF767000FC7DD /* NSDate+Description.m in Sources */,
+				BF40A3C51BCFF767000FC7DD /* trigonometry.c in Sources */,
+				BF40A3C11BCFF767000FC7DD /* KCAstronomicalCalculator.m in Sources */,
+				BF40A3B91BCFF767000FC7DD /* KCDafYomiCalculator.m in Sources */,
+				BF40A3BD1BCFF767000FC7DD /* KCSefiratHaomerCalculator.m in Sources */,
+				BF40A3AE1BCFF767000FC7DD /* NSCalendar+hebrewYearTypes.m in Sources */,
+				BF0CAB0B1BCEF307009FCDFF /* DonationViewController.swift in Sources */,
+				BFCD77B61C0104B10091D1CD /* CustomUINavigationBar.swift in Sources */,
+				BF40A3AD1BCFF767000FC7DD /* NSCalendar+DateManipulation.m in Sources */,
+				BF2389901BF7C21600A08710 /* SignInViewController.swift in Sources */,
+				BF40A3AC1BCFF767000FC7DD /* NSCalendar+DateComparison.m in Sources */,
+				BFA72BC71C270023009B3371 /* FirstPrayerViewController.swift in Sources */,
+				BF6BAF0D1BD5693400A0F704 /* BaseNavigationController.swift in Sources */,
+				BF439F4C1BC3201D0090770A /* AppDelegate.swift in Sources */,
+				BF2389891BF7BF6E00A08710 /* SignIn.swift in Sources */,
+				BF7F68101BE813F300654AF7 /* AppBoldTextView.swift in Sources */,
+				BF40A3BB1BCFF767000FC7DD /* KCParashatHashavuaCalculator.m in Sources */,
+				BF40A3B21BCFF767000FC7DD /* NSDate+ConvenientDates.m in Sources */,
+				BF40A3C41BCFF767000FC7DD /* KCSunriseAndSunsetCalculator.m in Sources */,
+				BF6E628F1C04DC71000EBE19 /* AboutTheDeveloperViewController.swift in Sources */,
+				BF40A3C31BCFF767000FC7DD /* KCGeoLocation.m in Sources */,
+				BF38CACD1C03923A0061108D /* TableViewCell.swift in Sources */,
+				BF888CD11BEEAA9200101FB6 /* SendEmailViewController.swift in Sources */,
+				BF40A3C01BCFF767000FC7DD /* KCZmanimCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF439F4F1BC3201D0090770A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF439F501BC3201D0090770A /* Base */,
+				BF5247061BFBCD37002B8E96 /* he */,
+			);
+			name = Main.storyboard;
+			path = NetanyaJunior;
+			sourceTree = "<group>";
+		};
+		BF439F571BC3201D0090770A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF439F581BC3201D0090770A /* Base */,
+				BF5247071BFBCD37002B8E96 /* he */,
+			);
+			name = LaunchScreen.storyboard;
+			path = NetanyaJunior;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2C5BCE1C2B39880046706F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yoni@yonisheinin.com (K6WSLEWQWR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yoni@yonisheinin.com (K6WSLEWQWR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "21980c84-36d0-4b5b-b5ac-7181e1fdeee9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		BF2C5BCF1C2B39880046706F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetanyaJunior",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = NetanyaJunior/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_MAP_FILE_PATH = "/$(PRODUCT_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = yonish.NetanyaJunior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetanyaJunior/NetanyaJunior-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		BF439F711BC3201D0090770A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yoni@yonisheinin.com (K6WSLEWQWR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yoni@yonisheinin.com (K6WSLEWQWR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "21980c84-36d0-4b5b-b5ac-7181e1fdeee9";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF439F721BC3201D0090770A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yoni@yonisheinin.com (K6WSLEWQWR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yoni@yonisheinin.com (K6WSLEWQWR)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "21980c84-36d0-4b5b-b5ac-7181e1fdeee9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF439F741BC3201D0090770A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetanyaJunior",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = NetanyaJunior/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_MAP_FILE_PATH = "$(TARGET_TEMP_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = yonish.NetanyaJunior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetanyaJunior/NetanyaJunior-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF439F751BC3201D0090770A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NetanyaJunior",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = NetanyaJunior/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_MAP_FILE_PATH = "/$(PRODUCT_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = yonish.NetanyaJunior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetanyaJunior/NetanyaJunior-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF439F431BC3201D0090770A /* Build configuration list for PBXProject "NetanyaJunior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF439F711BC3201D0090770A /* Debug */,
+				BF439F721BC3201D0090770A /* Release */,
+				BF2C5BCE1C2B39880046706F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF439F731BC3201D0090770A /* Build configuration list for PBXNativeTarget "NetanyaJunior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF439F741BC3201D0090770A /* Debug */,
+				BF439F751BC3201D0090770A /* Release */,
+				BF2C5BCF1C2B39880046706F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF439F521BC3201D0090770A /* NetanyaJunior.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF439F531BC3201D0090770A /* NetanyaJunior.xcdatamodel */,
+			);
+			currentVersion = BF439F531BC3201D0090770A /* NetanyaJunior.xcdatamodel */;
+			name = NetanyaJunior.xcdatamodeld;
+			path = NetanyaJunior/NetanyaJunior.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF439F401BC3201D0090770A /* Project object */;
+}
